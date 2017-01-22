@@ -1,0 +1,7 @@
+.abc {
+background-color: pink;
+height: 50px;
+}
+.cut{
+	clip: rect(0px,60px,200px,0px);
+}

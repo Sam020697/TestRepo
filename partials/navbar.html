@@ -1,0 +1,104 @@
+<nav class="navbar navbar-default nav-no-bg">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img alt="Trippy Baba" src="">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#"><span class="txt">Places</span></a></li>
+        <li><a href="#"><span class="txt">Itenary</span></a></li>
+        <li><a href="#"><span class="txt">Blog</span></a></li>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control srh" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default srh">Search</button>
+        </form>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-right">
+          <button type="button" class="btn btn-default btn-no-bg btn-txt" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>  Login</button>
+          <button type="button" class="btn btn-default btn-no-bg btn-txt" data-toggle="modal" data-target="#signupModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>  Signup</button>
+
+          <!-- Modal -->
+          <div id="loginModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Enter Login Details</h4>
+                </div>
+                <div class="modal-body">
+                  <p></p>
+                  <div class="form-group">
+                    <label for="uname">Username</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Enter Username">
+                  </div>
+                  <p></p>
+                  <div class="form-group">
+                    <label for="pass">Password</label>
+                    <input type="password" class="form-control" id="pass" placeholder="Enter Password">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Login</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="signupModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Enter Your Details</h4>
+                </div>
+                <div class="modal-body">
+                  <p></p>
+                  <div class="form-group">
+                    <label for="suname">Username</label>
+                    <input type="text" class="form-control" id="suname" placeholder="Enter Username">
+                  </div>
+                  <p></p>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                  </div>
+                  <p></p>
+                  <div class="form-group">
+                    <label for="adr">Address</label>
+                    <input type="text" class="form-control" id="adr" placeholder="Enter Postal Address">
+                  </div>
+                  <p></p>
+                  <div class="form-group">
+                    <label for="pass">Password</label>
+                    <input type="password" class="form-control" id="spass" placeholder="Enter Password">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Login</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </ul>
+
+    </div>
+  </div>
+</nav>
